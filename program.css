@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: #1e1e1e;
+    background-image: linear-gradient(rgba(80, 80, 80, 0.75),rgba(0, 0, 0, 0.75)),url('https://cdn.tuttosport.com/images/2023/03/10/161443035-4615bf91-2a46-4c31-815b-7242fd8b0440.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+a:hover{
+    color: #c6c6c6;
+}
+
+header{
+    position: relative;
+    padding: 0 2rem;
+}
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+   justify-content: space-between;
+
+}
+
+.navbar .logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .links{
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar .toggle-btn{
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+section#hero{
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+}
+
+
+.sec {
+    position: relative;
+    background-color: #202020;
+    padding: 100px;
+    color: #fff;
+} 
+
+.wrapped{
+    margin: 150px auto;
+    width: 70%;
+}
+ 
+img{
+    max-width: 320px;
+    float: left;
+    border-radius: 15px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+}
+
+.aerodinamic-img{
+    border-radius: 20px;
+    float: right;
+    margin-left:30px;
+}
+
+.text-box-2{
+    margin-top: 20px;
+}
+
+.text-box-3{
+    margin-right: 20px;
+    margin-top: 20px;
+    text-align: right;
+}
+
+.strategie-img {
+    float: right;
+    margin-left:30px;
+}
+
+.text-box-5 {
+    text-align: right;
+}
+
+#hero h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
